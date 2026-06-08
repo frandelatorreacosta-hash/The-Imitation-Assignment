@@ -56,18 +56,18 @@ h1{
     filter:hue-rotate(170deg) saturate(150%);
 }
 
-/* Seagull */
+/* Seagull*/
 
 .seagull-box{
     display:inline-block;
-    background:#c9c8ff;
-    padding:20px;
-}
 
-.seagull{
-    width:400px;
-    max-width:100%;
-    filter:drop-shadow(6px 6px 6px gray);
+    padding:25px;
+
+    background:linear-gradient(
+        90deg,
+        #8f8fff,
+        #ffffff
+    );
 }
 
 /* Butterfly */
