@@ -80,7 +80,7 @@ h1{
     width:500px;
     max-width:100%;
     border-radius:50%;
-    filter:invert(100%) saturate(140%) brightness(120%);
+    filter:invert(100%) saturate(140%) brightness(140%);
 }
 
 /* Stage */
