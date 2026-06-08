@@ -27,7 +27,7 @@ h1{
     max-width:100%;
 
     border-radius:50%;
-    border:10px solid #777;
+    border:10px solid #000000;
 
     clip-path:ellipse(48% 40% at 50% 50%);
 }
@@ -58,7 +58,7 @@ h1{
 
 .dinosaur{
     width:250px;
-    filter:hue-rotate(60deg) saturate(150%);
+    filter:hue-rotate(80deg) saturate(150%);
 }
 
 /* Seagull*/
@@ -69,7 +69,7 @@ h1{
     padding:25px;
 
     background:linear-gradient(
-        45deg,
+        90deg,
         #8f8fff,
         #ffffff
     );
@@ -81,7 +81,7 @@ h1{
     width:500px;
     max-width:100%;
     border-radius:50%;
-    filter:invert(100%) saturate(90%) brightness(80%);
+    filter:invert(100%) saturate(55%) brightness(55%);
 }
 
 /* Stage */
