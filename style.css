@@ -21,18 +21,14 @@ h1{
 
 /* Penguins */
 
-.penguin-wrapper{
-    display: inline-block;
-    border: 10px solid #000;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
 .penguins{
-    width: 450px;
-    max-width: 100%;
-    display: block;
-    clip-path: ellipse(48% 40% at 50% 50%);
+    width:450px;
+    max-width:100%;
+
+    border-radius:50%;
+    border:10px solid #000000;
+
+    clip-path:ellipse(48% 40% at 50% 50%);
 }
 
 /* Football Field + Tic-Tac-Toe */
@@ -84,7 +80,7 @@ h1{
     width:500px;
     max-width:100%;
     border-radius:50%;
-    filter:invert(100%) saturate(140%) brightness(75%);
+    filter:invert(100%) saturate(140%) brightness(120%);
 }
 
 /* Stage */
