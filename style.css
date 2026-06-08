@@ -7,8 +7,8 @@
 body{
     font-family:Arial, sans-serif;
     background:#f5f5f5;
-    padding:30px;
     text-align:center;
+    padding:30px;
 }
 
 h1{
@@ -19,23 +19,23 @@ h1{
     margin-bottom:60px;
 }
 
-/* =========================
+/* =====================
    PENGUINS
-========================= */
+===================== */
 
 .penguins{
     width:450px;
     max-width:100%;
 
-    border-radius:50%;
     border:2px solid #777;
+    border-radius:50%;
 
     clip-path:ellipse(48% 40% at 50% 50%);
 }
 
-/* =========================
+/* =====================
    FOOTBALL FIELD
-========================= */
+===================== */
 
 .field-container{
     position:relative;
@@ -47,6 +47,8 @@ h1{
 .field{
     width:100%;
     display:block;
+
+    filter:grayscale(100%);
 }
 
 .board-layer{
@@ -54,10 +56,10 @@ h1{
     inset:0;
 
     background-image:url("tic-tac-toe.png");
-    background-size:140px;
     background-repeat:repeat;
+    background-size:140px;
 
-    opacity:.20;
+    opacity:.12;
 
     mix-blend-mode:multiply;
 }
@@ -72,23 +74,23 @@ h1{
     object-fit:cover;
 }
 
-/* =========================
+/* =====================
    DINOSAUR
-========================= */
+===================== */
 
 .dinosaur{
     width:300px;
     max-width:100%;
 
     filter:
-        hue-rotate(230deg)
-        saturate(200%)
-        brightness(110%);
+        hue-rotate(130deg)
+        saturate(300%)
+        brightness(115%);
 }
 
-/* =========================
+/* =====================
    SEAGULL
-========================= */
+===================== */
 
 .seagull-box{
     display:inline-block;
@@ -96,9 +98,9 @@ h1{
     padding:25px;
 
     background:linear-gradient(
-        90deg,
-        #8f8fff,
-        #ffffff
+        to right,
+        #8a8cff,
+        white
     );
 }
 
@@ -109,9 +111,9 @@ h1{
     filter:drop-shadow(8px 8px 6px gray);
 }
 
-/* =========================
+/* =====================
    BUTTERFLY
-========================= */
+===================== */
 
 .butterfly{
     width:500px;
@@ -121,15 +123,15 @@ h1{
 
     filter:
         invert(100%)
-        hue-rotate(210deg)
-        saturate(230%)
-        brightness(135%)
-        contrast(110%);
+        hue-rotate(215deg)
+        brightness(170%)
+        contrast(85%)
+        saturate(180%);
 }
 
-/* =========================
+/* =====================
    STAGE
-========================= */
+===================== */
 
 .stage{
     position:relative;
