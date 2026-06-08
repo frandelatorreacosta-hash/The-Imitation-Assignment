@@ -21,15 +21,18 @@ h1{
 
 /* Penguins */
 
+.penguin-wrapper{
+    display: inline-block;
+    border: 10px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 .penguins{
-    width:450px;
-    max-width:100%;
-
-    border-radius:(48% 40% at 50% 50%);
-    border:10px solid #000000;
-
-    clip-path:ellipse(48% 40% at 50% 50%);
+    width: 450px;
+    max-width: 100%;
+    display: block;
+    clip-path: ellipse(48% 40% at 50% 50%);
 }
 
 /* Football Field + Tic-Tac-Toe */
@@ -58,7 +61,7 @@ h1{
 
 .dinosaur{
     width:250px;
-    filter:hue-rotate(80deg) saturate(150%);
+    filter:hue-rotate(80deg) saturate(150%) drop-shadow(4px 4px 10px rgba(0,0,0,0.3));
 }
 
 /* Seagull*/
